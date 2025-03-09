@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charse="UTF=8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Sanduni Rasikala</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9427d8f344.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+
+  <body>
+    
+      <div class="container">
+        <nav>
+          <img src="images/photo8.jpg" class="logo" />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="images/photo2.png" class="picture1" />
+        <div class="header-tex">
+          <p class="animated-text"></p>
+          <h1>
+            Hello, I'm <span>Sanduni</span><br />from University of Moratuwa
+          </h1>
+        </div>
+      </div>
+    </div>
+    
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/photo1.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>
+              I'm a friendly and adaptable character experienced in managing
+              team operations and achieving goals efficiently, committed to
+              continuous growth, and eager to make a significant impact within
+              an innovative organization.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('experience')">
+                    Experience
+                  </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+              <p class="tab-links " onclick="opentab('skills')">
+                Skills
+              </p>
+              
+              <p class="tab-links" onclick="opentab('competition')">
+                Competition
+              </p>
+            </div>
+            <div class="tab-contents" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />
+                    <ul>
+                        <li>User Interface (UI) Design</li>
+                        <li>User Experience (UX) Design</li>
+                        <li>Wireframing & Prototyping</li>
+                        <li>User Research & Usability Testing</li>
+                        <li>Interaction Design</li>
+                        <li>Accessibility & Inclusive Design</li>
+                        <li>Design Thinking & Problem-Solving</li>
+                      </ul>
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>UNIVERSITY OF MORATUWA</span><br />BSc (Hons).
+                  Information Technology & Management
+                </li>
+                <li>
+                  <span>ESOFT METRO CAMPUS</span><br />Diploma in IT & English
+                </li>
+                <li>
+                  <span>BRITISH WAY ENGLISH ACADEMY NITTAMBUWA</span
+                  ><br />Diploma English
+                </li>
+                <li>
+                  <span>OPEN LEARNING PLATFORM - UNIVERSITY OF MORATUWA</span
+                  ><br />Python for biginners
+                </li>
+                <li>
+                  <span>OPEN LEARNING PLATFORM - UNIVERSITY OF MORATUWA</span
+                  ><br />Web design for biginners
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents active-tab" id="experience">
+              <ul>
+                <li>
+                    <span>Tapro IT</span><br />UI/UX Designer (Part time) - August 2024 - present
+                  </li>
+                <li>
+                <li>
+                    <span>ZILLIONe</span><br />UI/UX Engineer intern - 01 year
+                  </li>
+                <li>
+                  <span>ZYNOVATEX</span><br />UI/UX Engineer intern - Mar 2023 -
+                  July 2023
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="competition">
+              <ul>
+                <li>
+                    <span>Pearlhack 2.0 - Runners up</span><br />Three phases UI/UX Designathon organized by IEEE WIA Sabaragamuwa University
+                  </li>
+                <li>
+                  <span>CODERALLY 4.0 -SELECTED FINAL 15</span><br />wo Phases
+                  AI hackathon Organized by IEEE Computer Society of the
+                  Informatic Institute of Technology
+                </li>
+                <li>
+                  <span>MORA UXPLORE 1.0 - 4TH PLACE</span><br />Four phases
+                  UI/UX Competition Organized by the IEEE branch of the
+                  University of Moratuwa
+                </li>
+                <li>
+                  <span>TECH-THIATHLON - PARTICIPATION</span><br />Three phases
+                  hackathon organized by Rootcode
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------services------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>I can provide you to clear and proper web design</p>
+            <a href="www.linkedin.com/in/sandunirasikala">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI/UX design</h2>
+            <p>I can provide you to clear and proper UI/UX design</p>
+            <a href="https://github.com/saduni9">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store-ios"></i>
+            <h2>App Design</h2>
+            <p>I can provide you to clear and proper App design</p>
+            <a href="https://github.com/saduni9">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------portpolio------------->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/1.png" />
+            <div class="layer">
+              <h3>Employee Management App</h3>
+              <p>This is full ui/ux design contain with prototype</p>
+              <a href="https://www.behance.net/sadunirasikala"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/2.png" />
+            <div class="layer">
+              <h3>event management app</h3>
+              <p>This is full ui/ux design with prototype</p>
+              <a href="https://www.behance.net/sadunirasikala"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/3.png" />
+            <div class="layer">
+              <h3>Power consumption app</h3>
+              <p>This is full ui/ux design contain with prototype</p>
+              <a href="https://www.behance.net/sadunirasikala"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://www.behance.net/sadunirasikala" class="btn"
+          >See more</a
+        >
+      </div>
+    </div>
+    <!-----------------Contact------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>sadunirasikala@gmail.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>078 7201737</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/sandunirasikala/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://www.behance.net/sadunirasikala"
+                ><i class="fa-brands fa-square-behance"></i
+              ></a>
+              <a href="https://dribbble.com/SaduniRasikala"
+                ><i class="fa-brands fa-square-dribbble"></i
+              ></a>
+              <a href="https://github.com/saduni9"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+              <a href=""> <i class="fa-brands fa-fiverr"></i></i></a>
+            </div>
+            <a href="images/Sanduni Rasikala_CV.pdf" download class="btn btn2"
+              >Download Cv</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright <i class="fa-solid fa-copyright"></i> Sanduni Rasikala
+        <i class="fa-solid fa-heart" style="color: #ff0000"></i>
+      </p>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbw8Jo4uCESg3263LUL7L5RGm9F2oAFppVfouIOWKsqikWax5DJZ4y4I_mxYN-WNENQe/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "message sent successfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+
+    
+    
+  </body>
+</html>
